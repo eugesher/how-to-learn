@@ -13,7 +13,26 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  background-color: antiquewhite;
   /* выше установили ограничения для секции */
+}
+
+.logo {
+  border: 1px solid red;
+  background-size: contain;
+}
+
+.logo_place_header {
+  width: 183px;
+  height: 32px;
+  background-image: url("../images/logo_place_header.svg");
+}
+
+.title {
+  width: 730px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: 700;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
