@@ -25,7 +25,6 @@
   max-height: 756px;
   background-color: #f2f2f2;
   position: relative;
-  margin-bottom: 100px;
   /* выше установили ограничения для секции */
 }
 
@@ -94,7 +93,7 @@
 
 .description {
   align-items: center;
-  margin-bottom: 100px;
+  margin-top: 100px;
 }
 
 .two-columns {
@@ -135,6 +134,7 @@
 
 .digits {
   align-items: center;
+  margin-top: 100px;
   margin-bottom: 100px;
 }
 
@@ -183,6 +183,45 @@
   font-weight: 400;
 }
 
+.feynman {
+  padding-top: 100px;
+  position: relative;
+  align-items: center;
+  height: 790px;
+  background-color: #f2f2f2;
+  background-image: url("../images/feynman.png");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 867px 637px;
+}
+
+.feynman__title {
+  margin: 0;
+  width: 648px;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 700;
+}
+
+.feynman__subtitle {
+  margin: 70px 0 0;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.feynman__link {
+  margin: 0;
+  position: absolute;
+  right: 48px;
+  top: 50%;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #000;
+}
 /* и элемента с модификатором вида ключ-значение */
 /*.table__cell_theme_dark {*/
 /*  width: 200px;*/
