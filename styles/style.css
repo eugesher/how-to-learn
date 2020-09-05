@@ -297,7 +297,7 @@
   background-image: url("../images/logo_place_footer.svg");
 }
 
-.footer_author {
+.footer__author {
   color: #fff;
   margin: 18px 0;
   line-height: 25px;
