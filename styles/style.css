@@ -133,7 +133,9 @@
 }
 
 .two-columns__span-accent {
-  font-weight: 700;
+  font-weight: 700;background-image: url("../images/logo_place_header.svg");
+  width: 183px;
+  height: 32px;
 }
 
 .digits {
@@ -269,3 +271,67 @@
   top: 0;
 }
 
+.footer {
+  border: 1px solid #0f0;
+  background-color: #000;
+  min-height: 350px;
+  justify-content: center;
+}
+
+.columns {
+  border: 1px solid red;
+  width: 90%;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  justify-content: space-between;
+}
+
+.footer__column_content_copyright {
+  border: 1px solid red;
+  flex-basis: 711px;
+  justify-content: space-between;
+}
+
+.footer__column_content_info {
+  border: 1px solid red;
+}
+
+.footer__column_content_social {
+  border: 1px solid red;
+}
+
+.logo_place_footer {
+  width: 185px;
+  height: 35px;
+  background-image: url("../images/logo_place_footer.svg");
+}
+
+.footer_author {
+  color: #fff;
+  margin: 18px 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.footer__column-heading {
+  color: #fff;
+  margin: 0;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.footer__column-links {
+  margin: 20px 0 16px;
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.footer__column-link {
+  color: #fff;
+  text-decoration: none;
+}
