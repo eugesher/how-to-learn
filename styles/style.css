@@ -80,7 +80,7 @@
   bottom: 0;
   z-index: 1;
 }
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+
 .header__square-pic {
   height: 568px;
   width: 568px;
@@ -283,12 +283,6 @@
 .footer__column_content_copyright {
   flex-basis: 711px;
   justify-content: space-between;
-}
-
-.footer__column_content_info {
-}
-
-.footer__column_content_social {
 }
 
 .logo_place_footer {
