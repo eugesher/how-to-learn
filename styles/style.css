@@ -245,9 +245,6 @@
 
 .table_theme_dark {
   margin: 0 auto;
-}
-
-.table_theme_dark {
   z-index: 1;
 }
 
@@ -321,7 +318,7 @@
 }
 
 .footer__social_icon {
-  object-fit: contain;;
+  object-fit: contain;
   width: 16px;
   height: 16px;
   margin-right: 10px;
