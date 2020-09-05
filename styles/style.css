@@ -29,13 +29,15 @@
 }
 
 .logo {
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .logo_place_header {
+  background-image: url("../images/logo_place_header.svg");
   width: 183px;
   height: 32px;
-  object-fit: cover;
   position: absolute;
   left: 64px;
   top: 30px;
@@ -75,7 +77,9 @@
 .header__main-illustration {
   width: 765px;
   height: 608px;
-  object-fit: cover;
+  background-image: url("../images/header-image.png");
+  background-size: cover;
+  background-position: center;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -264,3 +268,4 @@
   right: -210px;
   top: 0;
 }
+
