@@ -322,6 +322,11 @@
   font-weight: 400;
 }
 
+.footer__column-link-list {
+  list-style: none;
+  padding-left: 0;
+}
+
 .footer__column-link {
   color: #fff;
   text-decoration: none;
