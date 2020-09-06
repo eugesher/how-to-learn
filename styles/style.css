@@ -64,9 +64,7 @@
 .header__main-illustration {
   width: 765px;
   height: 608px;
-  background-image: url("../images/header-image.png");
-  background-size: cover;
-  background-position: center;
+  object-fit: cover;
   position: absolute;
   right: 0;
   bottom: 0;
