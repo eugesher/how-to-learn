@@ -274,7 +274,7 @@
   justify-content: center;
 }
 
-.columns {
+.footer__columns {
   display: flex;
   flex-direction: row;
   width: 90%;
@@ -327,7 +327,7 @@
   text-decoration: none;
 }
 
-.footer__social_icon {
+.footer__social-icon {
   object-fit: contain;
   width: 16px;
   height: 16px;
